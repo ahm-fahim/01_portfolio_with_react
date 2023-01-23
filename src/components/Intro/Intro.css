@@ -69,6 +69,8 @@
     height: 302px;
     left: 28%;
     filter: blur(0.3px);
+    border-bottom: 2px solid var(--rose);
+    border-width: 100%;
 }
 .intro-right > :nth-child(3) {
     transform: scale(0.8);
