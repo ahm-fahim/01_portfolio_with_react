@@ -1,0 +1,45 @@
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-bottom: 8rem;
+}
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle1,
+.circle2,
+.circle3 {
+    border: 6px solid whitesmoke;
+    padding: 1.3rem;
+    border-radius: 100rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: var(--boxShadow);
+}
+.circle1 {
+    border-left: 6px solid #de4839;
+    border-top: 6px solid #de4839;
+}
+.circle2 {
+    border-left: 6px solid #de4839;
+    border-top: 6px solid #de4839;
+    border-right: 6px solid #de4839;
+}
+.circle3 {
+    border-left: 6px solid #de4839;
+}
+.achievement > :nth-child(2) {
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+    letter-spacing: 4px;
+}
+.achievement > :nth-child(3) {
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    color:var(--rose);
+}
+
