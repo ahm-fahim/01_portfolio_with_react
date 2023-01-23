@@ -1,8 +1,10 @@
+import "./App.css"
+import Navber from "./components/Navber/Navber";
 
 function App() {
   return (
-    <div>
-      I am here with new settings
+    <div className="App">
+      <Navber></Navber>
     </div>
   );
 }

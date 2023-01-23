@@ -15,3 +15,19 @@
     overflow: hidden;
     color: var(--black);
 }
+.button {
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 26px;
+    background: linear-gradient(180deg, #ff6263 26.71%, #de4839 99.36%);
+    box-shadow: 0 20px 24px 3px #ff626273;
+    transition: 1s;
+}
+.button:hover {
+    background: white;
+    cursor: pointer;
+    color: var(--rose);
+    border: 1px solid var(--rose);
+}
