@@ -1,0 +1,65 @@
+.services {
+    padding: 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+    
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex:1;
+}
+.left-section > :nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.left-section > :nth-child(2) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--rose);
+    letter-spacing: 3px;
+}
+.left-section > :nth-child(3) {
+    font-size: 0.7rem;
+    color: var(--gray);
+    letter-spacing: 3px;
+    margin-top: 1rem;
+}
+.service-btn {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.right-section {
+    position: relative;
+    flex:1;
+}
+.right-section>:nth-child(1) {
+    position: absolute;
+    left: 14rem;
+}
+.right-section>:nth-child(2) {
+    position: absolute;
+    left: -4rem;
+    top:12rem;
+}
+.right-section>:nth-child(3) {
+    position: absolute;
+    left: 12rem;
+    top:19rem;
+}
+
+/* blur  */
+.service-blur1{
+    top:8rem;
+    left: -18rem;
+}
+.service-blur2{
+    top:8rem;
+    left: 14rem;
+    filter: blur(100px);
+}
