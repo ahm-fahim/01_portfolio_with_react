@@ -64,6 +64,9 @@
     align-items: center;
     justify-content: center;
 }
+.t-wrapper .swiper-pagination-bullet-active{
+    background: var(--rose);
+}
 .t-blur1{
    position: absolute;
    top: 10rem;
