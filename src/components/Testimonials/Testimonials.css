@@ -1,0 +1,75 @@
+.t-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    padding: 2rem 3rem;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.t-heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -80px;
+}
+.t-heading > :nth-child(1) {
+    font-size: 1.1rem;
+    color: var(--gray);
+    letter-spacing: 7px;
+}
+.t-heading > :nth-child(2) {
+    font-size: 2rem;
+    color: var(--rose);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.t-heading > :nth-child(3) {
+    font-size: 1.8rem;
+    color: var(--black);
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12rem;
+    width: 30rem;
+    padding: 2rem;
+    background: rgba(255,255,255,0.26);
+    border:7px solid var(--blueCard);
+    border-radius: 20px;
+    box-shadow: var(--boxShadow);
+    
+}
+
+.testimonial img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100rem;
+}
+
+.testimonial>span{
+    color: var(--gray);
+    letter-spacing: 2px;
+}
+
+.t-wrapper .swiper{
+    width: 100%;
+    height: 70%;
+}
+.t-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-blur1{
+   position: absolute;
+   top: 10rem;
+}
+.t-blur2{
+   position: absolute;
+   top: 10rem;
+   left: 10rem;
+}
