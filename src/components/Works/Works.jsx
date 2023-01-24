@@ -14,7 +14,7 @@ const Works = () => {
             <div className="w-left">
                 <span>Works For All These</span>
                 <span>Brands & Clients</span>
-                <span>Here's some works thats I have done. </span>
+                <span>Here's the platform where I works approximately 2+ years. </span>
                 <button className="button w-btn">Hire Me</button>
                 <div className="blur1 service-blur1"></div>
             </div>
