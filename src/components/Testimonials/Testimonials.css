@@ -37,11 +37,10 @@
     height: 12rem;
     width: 30rem;
     padding: 2rem;
-    background: rgba(255,255,255,0.26);
-    border:7px solid var(--blueCard);
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--blueCard);
     border-radius: 20px;
     box-shadow: var(--boxShadow);
-    
 }
 
 .testimonial img {
@@ -50,29 +49,56 @@
     border-radius: 100rem;
 }
 
-.testimonial>span{
+.testimonial > span {
     color: var(--gray);
     letter-spacing: 2px;
 }
 
-.t-wrapper .swiper{
+.t-wrapper .swiper {
     width: 100%;
     height: 70%;
 }
-.t-wrapper .swiper-slide{
+.t-wrapper .swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.t-wrapper .swiper-pagination-bullet-active{
+.t-wrapper .swiper-pagination-bullet-active {
     background: var(--rose);
 }
-.t-blur1{
-   position: absolute;
-   top: 10rem;
+.t-blur1 {
+    position: absolute;
+    top: 10rem;
 }
-.t-blur2{
-   position: absolute;
-   top: 10rem;
-   left: 10rem;
+.t-blur2 {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+}
+
+@media screen and (max-width: 700px) {
+    .t-wrapper {
+        margin-top: -4rem;
+        padding: 0;
+        height: 25rem;
+    }
+    .t-heading > :nth-child(1) {
+        font-size: 0.9rem;
+        letter-spacing: 4px;
+    }
+    .t-heading > :nth-child(2) {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+    .t-heading > :nth-child(3) {
+        font-size: 1rem;
+        letter-spacing: 3px;
+    }
+    .testimonial{
+        padding: 0.4rem;
+        text-align: center;
+        width: 100%;
+        height: 10rem;
+    }
+    
 }

@@ -82,7 +82,6 @@
         gap: 16rem;
         display: flex;
         flex-direction: column;
-        left: 0.2rem;
     }
     .right-section>.card{
         position: static;

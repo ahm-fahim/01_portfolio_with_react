@@ -52,7 +52,7 @@ const Testimonials = () => {
                 spaceBetween={30}
                 slidesPerView={1}
                 grabCursor={true}
-                className="portfolio-slider"
+                className="portfolio-slider "
             >
                 {clients.map((client, id) => (
                     <SwiperSlide key={id}>
