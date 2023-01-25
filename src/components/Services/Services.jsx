@@ -5,8 +5,11 @@ import glasses from "../../img/glasses.png";
 import humble from "../../img/humble.png";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import resume from "./resume.pdf";
+import { motion } from "framer-motion";
+
 
 const Services = () => {
+    const transition = { duration: 2, type: "spring" };
     return (
         <div className="services">
             <div className="left-section">
@@ -21,14 +24,22 @@ const Services = () => {
                 <div className="blur1 service-blur1"></div>
             </div>
             <div className="right-section">
-                <div>
+                <motion.div
+                    initial={{ left: "20rem" }}
+                    whileInView={{ left: "15rem" }}
+                    transition={transition}
+                >
                     <ServiceCard
                         emoji={heart}
                         heading="Design"
                         details={"Figma, Canva, Photoshop, Illustrator"}
                     />
-                </div>
-                <div>
+                </motion.div>
+                <motion.div
+                    initial={{ left: "-12rem" }}
+                    whileInView={{ left: "-2rem" }}
+                    transition={transition}
+                >
                     <ServiceCard
                         emoji={glasses}
                         heading="Development"
@@ -36,14 +47,18 @@ const Services = () => {
                             "HTML, CSS, Tailwind, Bootstrap, Javascript, React"
                         }
                     />
-                </div>
-                <div>
+                </motion.div>
+                <motion.div
+                    initial={{ left: "20rem" }}
+                    whileInView={{ left: "13rem" }}
+                    transition={transition}
+                >
                     <ServiceCard
                         emoji={humble}
                         heading="Design"
                         details={"Figma, Canva, Photoshop, Illustrator"}
                     />
-                </div>
+                </motion.div>
                 <div className="blur2 service-blur2"></div>
             </div>
         </div>
