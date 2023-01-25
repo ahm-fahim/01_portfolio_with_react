@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 const Services = () => {
     const transition = { duration: 2, type: "spring" };
     return (
-        <div className="services">
+        <div className="services" id="Services">
             <div className="left-section">
                 <span>My Awesome</span>
                 <span>Services</span>

@@ -16,3 +16,6 @@
 ### in this project to animate content here i use [Framer Motion](https://www.framer.com/motion/introduction/)
 
 `npm install framer-motion`
+
+## for smooth scrolling [React Scroll](https://github.com/fisshy/react-scroll)
+```npm install react-scroll```

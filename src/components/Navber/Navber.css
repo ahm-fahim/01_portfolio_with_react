@@ -2,6 +2,13 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 3.5rem;
+    z-index: 999;
+    background: white;
 }
 .nav-left {
     flex: 1;
@@ -29,7 +36,11 @@
     margin-right: 4rem;
     list-style: none;
 }
-.nav-list > ul > li:hover {
+.navLink{
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+.navLink:hover {
     cursor: pointer;
     color: var(--rose);
 }

@@ -17,7 +17,7 @@ import "swiper/css/scrollbar";
 const Portfolio = () => {
 
     return (
-        <div className="portfolio">
+        <div className="portfolio" id="Portfolio">
             <span>Recent Projects</span>
             <span>Portfolio</span>
 
@@ -42,7 +42,6 @@ const Portfolio = () => {
                     <img src={p4} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    
                     <img src={p5} alt="" />
                 </SwiperSlide>
             </Swiper>

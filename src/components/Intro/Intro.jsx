@@ -16,7 +16,7 @@ const Intro = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className="intro">
+        <div className="intro" id="Intro">
             <div className="intro-left">
                 <div className="intro-name">
                     <span

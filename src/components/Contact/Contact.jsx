@@ -27,7 +27,7 @@ const Contact = () => {
             );
     };
     return (
-        <div className="contact-wrapper">
+        <div className="contact-wrapper" id="Contact">
             <div className="c-left">
                 <img src={Love} alt="" />
                 <span>Get in Touch</span>
@@ -39,7 +39,10 @@ const Contact = () => {
                     <input type="text" name="user_name" placeholder="Name" />
                     <input type="email" name="user_email" placeholder="Email" />
                     <textarea name="message" placeholder="Message" />
-                    <span className="success-message">{ done && "Thanks for your message! I will connect you soon!"}</span>
+                    <span className="success-message">
+                        {done &&
+                            "Thanks for your message! I will connect you soon!"}
+                    </span>
                     <input
                         type="submit"
                         value="Send"
