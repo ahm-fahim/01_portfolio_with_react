@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import Love from "../../img/heartemoji.png";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
     const form = useRef();
+    const [done, setDone] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -18,10 +19,10 @@ const Contact = () => {
             )
             .then(
                 (result) => {
-                    alert(result.text);
+                    setDone(true)
                 },
                 (error) => {
-                    alert(error.text);
+                    
                 }
             );
     };
@@ -38,6 +39,7 @@ const Contact = () => {
                     <input type="text" name="user_name" placeholder="Name" />
                     <input type="email" name="user_email" placeholder="Email" />
                     <textarea name="message" placeholder="Message" />
+                    <span className="success-message">{ done && "Thanks for your message! I will connect you soon!"}</span>
                     <input
                         type="submit"
                         value="Send"
