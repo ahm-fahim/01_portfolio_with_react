@@ -12,3 +12,7 @@
 ## installation
 
 `pm install --save @iconscout/react-unicons`
+
+### in this project to animate content here i use [Framer Motion](https://www.framer.com/motion/introduction/)
+
+`npm install framer-motion`
