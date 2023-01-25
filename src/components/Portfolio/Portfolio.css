@@ -40,6 +40,7 @@
     .portfolio {
         margin-top: -20rem;
         padding: 0;
+        height: 36rem;
     }
     .portfolio span:nth-of-type(1) {
         font-size: 0.9rem;

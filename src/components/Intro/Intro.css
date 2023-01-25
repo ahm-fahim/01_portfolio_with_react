@@ -132,4 +132,7 @@
     .intro-name > :nth-child(3) {
         letter-spacing: 2px;
     }
+    .blur1,.blur2{
+        display: none;
+    }
 }

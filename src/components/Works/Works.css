@@ -106,6 +106,7 @@
         flex-direction: column;
         padding: 0;
         margin-top: -5rem;
+        height: 40rem;
     }
     .w-left > :nth-child(1){
         font-size: 0.9rem;

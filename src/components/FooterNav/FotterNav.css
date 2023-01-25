@@ -1,0 +1,27 @@
+.fnav-list ul {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.fnav-list ul li {
+    list-style: none;
+}
+.fnav-wrapper {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+@media screen and (max-width: 700px) {
+    .fnav-wrapper {
+        display: block;
+        background: white;
+        box-shadow:-1px 2px 10px 1px rgb(178, 178, 178);
+        padding: 0.1rem 0;
+        border-top-right-radius: 50rem;
+        border-top-left-radius: 50rem;
+    }
+}

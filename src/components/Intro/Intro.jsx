@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Github from "../../img/github.png";
-import Linkdin from "../../img/linkdin.png";
 import vertor4 from "../../img/vector4.png";
 import me from "../../img/me.png";
 import thumb from "../../img/thumbup.png";
@@ -10,6 +8,8 @@ import crown from "../../img/crown.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import Git from "@iconscout/react-unicons/icons/uil-github";
+import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 
 const Intro = () => {
     const transition = { duration: 2, type: "spring" };
@@ -34,8 +34,8 @@ const Intro = () => {
                 </div>
                 <button className="intro-button button">Hire Me</button>
                 <div className="intro-icons">
-                    <img src={Github} alt="" />
-                    <img src={Linkdin} alt="" />
+                    <Git />
+                    <Linkedin />
                 </div>
             </div>
             <div className="intro-right">
@@ -56,7 +56,7 @@ const Intro = () => {
                     <FloatingDiv image={crown} text1="Web" text2="Developer" />
                 </motion.div>
                 <motion.div
-                    initial={{ left: "9rem",top:'18rem'}}
+                    initial={{ left: "9rem", top: "18rem" }}
                     whileInView={{ left: "0rem" }}
                     transition={transition}
                 >

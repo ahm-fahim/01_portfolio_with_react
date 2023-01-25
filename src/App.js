@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
+import FooterNav from "./components/FooterNav/FooterNav";
 
 function App() {
   const theme = useContext(themeContext);
@@ -30,7 +31,8 @@ function App() {
             <Portfolio />
             <Testimonials />
             <Contact />
-            <Footer />
+        <Footer />
+        <FooterNav/>
         </div>
     );
 }
