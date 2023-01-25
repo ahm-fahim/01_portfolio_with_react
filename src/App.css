@@ -31,3 +31,9 @@
     color: var(--rose);
     border: 1px solid var(--rose);
 }
+
+@media screen and (max-width: 700px){
+    .App{
+        padding: 0.5rem 1rem;
+    }
+}

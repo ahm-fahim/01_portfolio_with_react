@@ -113,3 +113,23 @@
     filter: blur(50px);
     z-index: -9;
 }
+@media screen and (max-width: 700px){
+    .intro{
+        flex-direction: column;
+        height: 40rem;
+    }
+    .intro-right{
+        transform: scale(0.6);
+        left:-2rem;
+        top: -6rem;
+    }
+    .intro-name > :nth-child(1) {
+        font-size: 1rem;
+    }
+    .intro-name > :nth-child(2) {
+        font-size: 1.3rem;
+    }
+    .intro-name > :nth-child(3) {
+        letter-spacing: 2px;
+    }
+}

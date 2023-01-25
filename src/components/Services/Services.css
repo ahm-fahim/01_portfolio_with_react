@@ -4,13 +4,12 @@
     height: 90vh;
     margin-bottom: 8rem;
     margin-top: 3rem;
-    
 }
 .left-section {
     display: flex;
     flex-direction: column;
     position: relative;
-    flex:1;
+    flex: 1;
 }
 .left-section > :nth-child(1) {
     font-size: 2rem;
@@ -36,30 +35,57 @@
 
 .right-section {
     position: relative;
-    flex:1;
+    flex: 1;
 }
-.right-section>:nth-child(1) {
+.right-section > :nth-child(1) {
     position: absolute;
     left: 14rem;
 }
-.right-section>:nth-child(2) {
+.right-section > :nth-child(2) {
     position: absolute;
     left: -4rem;
-    top:12rem;
+    top: 12rem;
 }
-.right-section>:nth-child(3) {
+.right-section > :nth-child(3) {
     position: absolute;
     left: 12rem;
-    top:19rem;
+    top: 19rem;
 }
 
 /* blur  */
-.service-blur1{
-    top:8rem;
+.service-blur1 {
+    top: 8rem;
     left: -18rem;
 }
-.service-blur2{
-    top:8rem;
+.service-blur2 {
+    top: 8rem;
     left: 14rem;
     filter: blur(100px);
+}
+@media screen and (max-width: 700px) {
+    .services {
+        flex-direction: column;
+        height: 66rem;
+        margin-top: -3rem;
+    }
+    .left-section > :nth-child(1) {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .left-section > :nth-child(2) {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .right-section {
+        margin-top: -40rem;
+        gap: 16rem;
+        display: flex;
+        flex-direction: column;
+        left: 0.2rem;
+    }
+    .right-section>.card{
+        position: static;
+    }
+  
 }

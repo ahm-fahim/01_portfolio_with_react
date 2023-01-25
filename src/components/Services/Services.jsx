@@ -28,6 +28,7 @@ const Services = () => {
                     initial={{ left: "20rem" }}
                     whileInView={{ left: "15rem" }}
                     transition={transition}
+                    className="card"
                 >
                     <ServiceCard
                         emoji={heart}
@@ -39,6 +40,7 @@ const Services = () => {
                     initial={{ left: "-12rem" }}
                     whileInView={{ left: "-2rem" }}
                     transition={transition}
+                    className="card"
                 >
                     <ServiceCard
                         emoji={glasses}
@@ -52,6 +54,7 @@ const Services = () => {
                     initial={{ left: "20rem" }}
                     whileInView={{ left: "13rem" }}
                     transition={transition}
+                    className="card"
                 >
                     <ServiceCard
                         emoji={humble}
