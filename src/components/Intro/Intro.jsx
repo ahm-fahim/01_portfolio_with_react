@@ -9,10 +9,12 @@ import glassesEmoji from "../../img/glassesimoji.png";
 import crown from "../../img/crown.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
+import { motion } from "framer-motion";
 
 const Intro = () => {
-      const theme = useContext(themeContext);
-      const darkMode = theme.state.darkMode;
+    const transition = { duration: 2, type: "spring" };
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className="intro">
             <div className="intro-left">
@@ -39,17 +41,31 @@ const Intro = () => {
             <div className="intro-right">
                 <img src={vertor4} alt="" />
                 <img src={me} alt="" />
-                <img src={glassesEmoji} alt="" />
-                <div>
+                <motion.img
+                    initial={{ left: "-36%" }}
+                    whileInView={{ left: "-24%" }}
+                    transition={transition}
+                    src={glassesEmoji}
+                    alt=""
+                />
+                <motion.div
+                    initial={{ top: "-4%", left: "74%" }}
+                    whileInView={{ left: "68%" }}
+                    transition={transition}
+                >
                     <FloatingDiv image={crown} text1="Web" text2="Developer" />
-                </div>
-                <div>
+                </motion.div>
+                <motion.div
+                    initial={{ left: "9rem",top:'18rem'}}
+                    whileInView={{ left: "0rem" }}
+                    transition={transition}
+                >
                     <FloatingDiv
                         image={thumb}
                         text1="Best Desing"
                         text2="Award"
                     />
-                </div>
+                </motion.div>
                 {/* blur div  */}
                 <div className="blur1"></div>
                 <div className="blur2"></div>
