@@ -1,4 +1,5 @@
 import React from 'react';
+import Toggle from '../Toggle/Toggle';
 import "./Navber.css"
 
 const Navber = () => {
@@ -7,7 +8,7 @@ const Navber = () => {
             <div className="nav-wrapper">
                 <div className="nav-left">
                     <div className="nav-name">Fahim</div>
-                    <span>toggle</span>
+                    <Toggle/>
                 </div>
                 <div className="nav-right">
                     <div className="nav-list">

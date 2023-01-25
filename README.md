@@ -6,3 +6,9 @@
 
 `npm install emailjs `
 `npm install @emailjs/browser `
+
+### in this project here i use [IconScout](https://iconscout.com/free-icons?gclid=Cj0KCQiAw8OeBhCeARIsAGxWtUxM5s-sxQTgKF0dE68HTkk4gTvyHW1GLhVrYfOQJCID7L9P4rQtbIkaAq_QEALw_wcB)
+
+## installation
+
+`pm install --save @iconscout/react-unicons`

@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Testimonials.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Pagination} from "swiper";
+import { Pagination } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import pro1 from "../../img/profile1.jpg";
 import pro2 from "../../img/profile2.jpg";
 import pro3 from "../../img/profile3.jpg";
 import pro4 from "../../img/profile4.jpg";
+import { themeContext } from "../../Context";
 
 const Testimonials = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     const clients = [
         {
             img: pro1,
@@ -34,7 +37,13 @@ const Testimonials = () => {
             <div className="t-heading">
                 <span>Clients always get</span>
                 <span>Exceptional Work</span>
-                <span>from me</span>
+                <span
+                    style={{
+                        color: darkMode ? "white" : "",
+                    }}
+                >
+                    from me
+                </span>
             </div>
             {/* slider  */}
             <Swiper

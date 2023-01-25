@@ -8,9 +8,10 @@
     padding: 0 28px 0 0;
     height: 4.5rem;
 }
-.floatingdiv span{
+.floatingdiv span {
     font-family: sans-serif;
     font-size: 16px;
+    color: var(--black);
 }
 .floatingdiv img {
     transform: scale(0.4);
