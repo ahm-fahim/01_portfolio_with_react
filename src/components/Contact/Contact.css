@@ -1,6 +1,6 @@
 .contact-wrapper {
     display: flex;
-    padding: 0 3rem;
+    padding: 0 2rem;
     align-items: center;
     justify-content: center;
     height: 40vh;
@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding: 2rem;
 }
 .c-left > img {
     width: 6rem;
@@ -29,22 +28,25 @@
     font-size: 2.3rem;
 }
 .c-right {
-    flex: 2;
+    flex: 1;
+    display: flex;
 }
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     align-items: start;
+    width: 20rem;
+    padding: 0rem 2rem;
 }
 .contact-form > input,
 textarea {
+    width: 90%;
     border: none;
     border-radius: 10px;
-    padding: 0.4rem 0.3rem;
     background-color: white;
     font-size: 0.8rem;
-    width: 20rem;
+    padding: 0.4rem 0.3rem;
     box-shadow: inset 1px 1px 2px 1px rgba(0, 0, 0, 0.08);
 }
 
@@ -83,6 +85,8 @@ input:focus {
     }
     .contact-form {
         gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
     }
     .contact-form > input,
     textarea {
