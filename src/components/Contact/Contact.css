@@ -65,6 +65,7 @@ input:focus {
     color: var(--rose);
     letter-spacing: 3px;
     font-size: 0.7rem;
+    text-align: center;
 }
 @media screen and (max-width: 700px) {
     .contact-wrapper {
