@@ -1,3 +1,5 @@
+[Live View](https://comforting-sunshine-cd7975.netlify.app)
+
 ### In this project here I use [swiper js](https://swiperjs.com/react) in portfolio section for this slider
 
 `npm i swiper `
@@ -18,4 +20,5 @@
 `npm install framer-motion`
 
 ## for smooth scrolling [React Scroll](https://github.com/fisshy/react-scroll)
-```npm install react-scroll```
+
+`npm install react-scroll`
