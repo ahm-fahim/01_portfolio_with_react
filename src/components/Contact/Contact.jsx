@@ -19,11 +19,9 @@ const Contact = () => {
             )
             .then(
                 (result) => {
-                    setDone(true)
+                    setDone(true);
                 },
-                (error) => {
-                    
-                }
+                (error) => {}
             );
     };
     return (

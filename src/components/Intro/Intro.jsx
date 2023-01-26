@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
+import { Link } from "react-scroll";
 import vertor4 from "../../img/vector4.png";
 import me from "../../img/me.png";
 import thumb from "../../img/thumbup.png";
@@ -32,7 +33,9 @@ const Intro = () => {
                         life is "why I choose my career in CSE!"{" "}
                     </span>
                 </div>
-                <button className="intro-button button">Hire Me</button>
+                <Link spy={true} to="Contact" smooth={true}>
+                    <button className="intro-button button">Hire Me</button>
+                </Link>
                 <div className="intro-icons">
                     <Git />
                     <Linkedin />

@@ -12,8 +12,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-
-
 const Portfolio = () => {
 
     return (
@@ -27,7 +25,31 @@ const Portfolio = () => {
                 spaceBetween={30}
                 slidesPerView={3}
                 grabCursor={true}
-                className="portfolio-slider"
+                className="portfolio-slider res-port-slider"
+            >
+                <SwiperSlide>
+                    <img src={p1} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={p2} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={p3} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={p4} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={p5} alt="" />
+                </SwiperSlide>
+            </Swiper>
+            <Swiper
+                modules={[Scrollbar]}
+                scrollbar={{ draggable: true }}
+                spaceBetween={30}
+                slidesPerView={1}
+                grabCursor={true}
+                className="res-portfolio-slider"
             >
                 <SwiperSlide>
                     <img src={p1} alt="" />

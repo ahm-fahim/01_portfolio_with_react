@@ -5,7 +5,7 @@
     justify-content: center;
     height: 40vh;
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 .c-left {
     flex: 1;
@@ -30,7 +30,6 @@
 }
 .c-right {
     flex: 2;
-
 }
 .contact-form {
     display: flex;
@@ -68,9 +67,8 @@ input:focus {
 @media screen and (max-width: 700px) {
     .contact-wrapper {
         flex-direction: column;
-        padding: 0rem;
         height: 15rem;
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
     }
     .c-left > :nth-child(1) {
         width: 5rem;
@@ -88,7 +86,6 @@ input:focus {
     }
     .contact-form > input,
     textarea {
-        width: 100%;
         box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
     }
 }

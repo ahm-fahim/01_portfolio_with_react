@@ -29,32 +29,32 @@ const FooterNav = () => {
                             smooth={true}
                             activeClass="activeClass"
                         >
-                            <li className="navLink">
+                            <li className="fnavLink">
                                 <Home />
                             </li>
                         </Link>
                         <Link spy={true} to="Services" smooth={true}>
-                            <li className="navLink">
+                            <li className="fnavLink">
                                 <Service />
                             </li>
                         </Link>
                         <Link spy={true} to="Experience" smooth={true}>
-                            <li className="navLink">
+                            <li className="fnavLink">
                                 <Skill />
                             </li>
                         </Link>
                         <Link spy={true} to="Portfolio" smooth={true}>
-                            <li className="navLink">
+                            <li className="fnavLink">
                                 <Work />
                             </li>
                         </Link>
                         <Link spy={true} to="Testimonials" smooth={true}>
-                            <li className="navLink">
+                            <li className="fnavLink">
                                 <Testimonials />
                             </li>
                         </Link>
                         <Link spy={true} to="Contact" smooth={true}>
-                            <li className="navLink">
+                            <li className="fnavLink">
                                 <Contact />
                             </li>
                         </Link>

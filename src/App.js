@@ -7,14 +7,14 @@ import Services from "./components/Services/Services";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Works from "./components/Works/Works";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
 import FooterNav from "./components/FooterNav/FooterNav";
 
 function App() {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div
             className="App"
@@ -31,8 +31,8 @@ function App() {
             <Portfolio />
             <Testimonials />
             <Contact />
-        <Footer />
-        <FooterNav/>
+            {/* <Footer /> */}
+            <FooterNav />
         </div>
     );
 }

@@ -8,7 +8,7 @@
     left: 0;
     padding: 0 3.5rem;
     z-index: 999;
-    background: white;
+    background: rgba(255, 255, 255, 0.779);
 }
 .nav-left {
     flex: 1;
@@ -19,6 +19,8 @@
 .nav-name {
     font-size: 1.3rem;
     font-weight: bold;
+    font-family:monospace;
+    letter-spacing: 2px;
 }
 .nav-right {
     display: flex;
@@ -50,6 +52,7 @@
 @media screen and (max-width: 700px){
     .nav-wrapper{
         padding: 0.1rem 1rem;
+        height: 2rem;
     }
     .nav-list{
         display: none;
