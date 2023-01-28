@@ -14,6 +14,8 @@
 ## installation
 
 `npm install --save @iconscout/react-unicons`
+`import Moon from "@iconscout/react-unicons/icons/uil-moon";`
+`<Moon/>`
 
 ### in this project to animate content here i use [Framer Motion](https://www.framer.com/motion/introduction/)
 
